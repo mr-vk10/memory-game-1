@@ -1,35 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 html,
 body {
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: "Press Start 2P", sans-serif;
   width: 100%;
   color: #eee;
-
-  /* height: 100%; */
-  /* overflow: hidden; */
 }
 
 body {
   background-color: #2e2e2e;
 }
 
-header {
-  height: 25vh;
+.horizontal-line {
   border-bottom: 7px solid #eee;
 }
 
-.scoreBoard {
-  position: absolute;
-  height: 100%;
+.vertical-line {
   border-left: 7px solid #eee;
-  padding: 3rem;
-  right: 0;
 }
 
 .game {
   position: relative;
   padding: 3rem;
-  /* overflow: hidden; */
 }
 
 .hidden {
@@ -43,6 +34,7 @@ header {
   background-color: blueviolet;
   margin: 4px;
   font-size: xx-large;
+  padding: 0;
 }
 img {
   max-width: 100%;
