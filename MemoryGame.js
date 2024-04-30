@@ -4,7 +4,8 @@ let firstChoice, secondChoice, choiceOne, choiceTwo, fChoiceIdSaved;
 let answerKey = { 0: [], 1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [] };
 
 let correctBlocks = [];
-const hideImg = "https://image.flaticon.com/icons/png/512/36/36601.png";
+// const hideImg = "https://image.flaticon.com/icons/png/512/36/36601.png";
+const hideImg = "images/question.png";
 
 const imageMap = {
   0: "images/blank.png",
@@ -59,7 +60,9 @@ const startGame = function () {
   document.querySelector("body").style.backgroundColor = "#2e2e2e";
   $(".game").empty();
 
-  let hideImg = "https://image.flaticon.com/icons/png/512/36/36601.png";
+  // let hideImg = "https://image.flaticon.com/icons/png/512/36/36601.png";
+  let hideImg = "images/question.png";
+
   let appendStr = "";
 
   for (let i = 0; i < 4; i++) {
@@ -91,7 +94,8 @@ const assignValue = function () {
 const givePeak = function () {
   document.addEventListener("click", disableAllClicks, true);
 
-  let hideImg = "https://image.flaticon.com/icons/png/512/36/36601.png";
+  // let hideImg = "https://image.flaticon.com/icons/png/512/36/36601.png";
+  let hideImg = "images/question.png";
   let boxes = document.querySelectorAll(".box");
   // console.log(boxes);
   let boxesID = [];
